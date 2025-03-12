@@ -1,0 +1,81 @@
+* {
+  margin: 0px 5px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+* body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+}
+.header__logo {
+  font-size: 4vw;
+}
+.header__menu {
+  display: flex;
+  font-size: 3vw;
+  gap: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+.main__image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(./images/Portrait.png);
+  width: 50%;
+}
+.main__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.main__text-1 {
+  font-size: 10vw;
+}
+.main__text-2, .main__text-3, .main__text-4 {
+  font-size: 5vw;
+}
+.main__text span {
+  color: red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-right: 7%;
+  height: 10%;
+}
+.footer [class^=footer__] img {
+  width: 5.3vw;
+}
+
+#size {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */
