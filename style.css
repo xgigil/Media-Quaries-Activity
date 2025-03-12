@@ -71,6 +71,46 @@
   width: 5.3vw;
 }
 
+@media (max-width: 650px) {
+  .header {
+    justify-content: center;
+  }
+  .header__logo {
+    font-size: 40px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__image {
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    border-radius: 100%;
+    background-position: center;
+  }
+  .main__text {
+    width: 100%;
+  }
+  .main__text-1 {
+    display: none;
+  }
+  .main__text-2, .main__text-3, .main__text-4 {
+    font-size: 30px;
+  }
+  .footer {
+    justify-content: center;
+    margin: 0px;
+  }
+  .footer [class^=footer__] img {
+    width: 45px;
+    height: 45px;
+  }
+}
 #size {
   position: absolute;
   top: 55%;
